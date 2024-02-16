@@ -1,0 +1,545 @@
+
+
+.inter-fontstyle {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    }
+
+    .merriweather-regular {
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+html{
+    width: 1600px;
+    margin: 0px;
+    padding: 0px;
+}
+/* main{
+    width: 100%;
+    padding:0px
+} */
+
+/* Style for Hero Section, Join Midnight Party Section */
+header, .joinNowMidnightParty{
+    position: relative;
+    margin: 50px auto;
+    padding: 0;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+
+}
+.imageOverlayOpacity{
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(to left, transparent, black);
+    position: absolute;
+    border-radius: 16px;
+    
+}
+.heroContet{
+    position: absolute;
+    top: 15%;
+    left: 27%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+
+   }
+.heroContet p{
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.heroContet h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    width: 630px;
+    height: 200px;
+    margin-top: 0px;
+   
+}
+
+/* main section styles are form here */
+/* ------------------------------------- */
+/* 65% OFF section styles */
+.newYearOfferContainer{
+    width: 800px;
+   margin: 100px auto;
+   
+}
+.newYearOfferContainer h2{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.newYearOfferContainer p{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+.newYearOfferContainer h4{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px;
+}
+
+/* Join Midnight Party Section Style*/
+.joinNowContent{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    height: 80%;
+    }
+
+.joinNowContent h2{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    /* padding-left: 0px; */
+    /* margin-left: 0px; */
+    margin-bottom: 0px;
+    width: 650px;
+    height: 170px;
+}
+.joinNowContent p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 700px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.btn-primary{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;  
+}
+.btn-primary:hover{
+    background: rgba(222, 100, 30, 0.4);
+}
+.joinNowImage2024{
+    position: absolute;
+    bottom: 10%;
+    right: 13%;
+    width: 22%;
+    height: 73%;
+}
+
+/* Venue section style */
+.venueContainer{
+    position: relative;
+    margin: 100px auto;
+    padding: 0;
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(to top, transparent, rgb(247, 192, 230));
+    
+}
+
+.venueInfo{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+}
+.venueInfo > p span{
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    }
+
+.venueInfo  p{
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.btn-secondary{
+    position: absolute;
+    bottom: 20%;
+    right: 43%;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff; 
+    font-weight: 700;
+  }
+
+  .btn-secondary:hover{
+        background: rgb(226, 160, 205);
+        color: #F00;
+  }
+
+  /* new best offer section Style */
+  .newBestOfferContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    width: 1320px;
+    height: 600px;
+    
+
+  }
+  .newBestOffer-1{
+    width: 422px;
+    height: 100%;
+    padding-left: 20px;
+    position: relative;
+    
+    }
+.newBestOffer-1Content{
+    position: absolute;
+    left: 3%;
+    top: 15%;
+
+}
+.newBestOffer-1Content h5{
+    color: #F00;
+    font-size: 24px;
+    font-family: inter;
+    font-weight: 500;
+    margin-bottom: 0px;
+    }
+.newBestOffer-1Content h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 0px;
+}
+.newBestOffer-1Content p{
+    width: 400px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+ .newBestOffer-2{
+    position: relative;
+    width: 422px;
+    height: 100%;
+    }
+.newBestOffer-2Content{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    }
+    .ellipsImg{
+    /* width: 75%; */
+    padding: 15px;
+    border: 15px solid red;
+    border-radius: 50%;
+    /* border-color: #F00; */
+}
+ .newBestOffer-3{
+    position: relative;
+    width: 422px;
+    height: 100%;
+    }
+ .newBestOffer-3Content{
+    position: absolute;
+    top: 15%;
+    left: 3;
+    padding: 50px;
+ }
+ .newBestOffer-3Content h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ .newBestOffer-3Content p{
+    width: 275px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+ }
+ .bestOfferImg{
+    position: absolute;
+    left: 8%;
+    bottom: 1%;
+ }
+
+ /* Holiday sales Section */
+ .holidaySales{
+    width: 1100px;
+    height: 220px;
+    text-align: center;
+    margin: 200px auto;
+
+ }
+
+ .holidaySales h5{color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+
+ }
+ .holidaySales > h1 span{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+ }
+ .holidaySales > h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom: 20px;
+    
+ }
+ .holidaySales p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-top: 0px;
+ }
+/* Our Awsome portfolio */
+.awsomePorfolio{
+    margin: 140px;
+    margin-bottom: 40px;
+}
+.awsomePorfolio h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.awsomePorfolio h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.awsomePorfolio p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 900px;
+    margin-bottom: 0px;
+}
+
+/* photo galarry section */
+.portfoioGallery{
+    width: 1320px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: ; */
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+}
+.imageCard{
+    width: 425px;
+    height: 450px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    border-radius: 16px;
+}
+.imageCard:hover{
+    box-shadow: #070211;
+    border: 1px solid gray;
+} 
+
+/* subscribe newslater section */
+.subscribeNewsletterContainer{
+    position: relative;
+   width: 1320px;
+   height: 600px;
+   margin: 100px auto;
+   background: #F00;
+}
+.subscribeNewsletterContainer img{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+
+.subscribeNewsletterContent{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 800px;
+    margin: 50px auto;
+}
+
+.subscribeNewsletterContent h2{
+    
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.subscribeNewsletterContent p{
+    width: 900px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.subscribeInput{
+    position: absolute;
+    bottom: 20%;
+    right: 35%;
+}
+
+/* footer section */
+
+footer{
+    width: 1600px;
+    height: 600px;
+    background: #070211;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    height: auto;
+    margin: 50px auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 5px solid rgba(196, 37, 37, 0.15);
+}
+.address-1{
+   
+    width: 375px;
+    height: 80px;
+    margin-top: 0px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+.address-2 p{
+    display: inline;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.iconForLink{
+    width: 1320px;
+    height: auto;
+    margin: 50px auto;
+    border-bottom: 5px solid rgba(196, 37, 37, 0.15); 
+}
+.iconsImages{
+    width: 400px;
+    height: auto;
+    margin: 50px auto;
+}
+.allRightReserve{
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
